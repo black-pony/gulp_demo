@@ -1,0 +1,1 @@
+var a=1,b=2;console.log(a+b);var gulp=require("gulp"),uglify=require("gulp-uglify"),concat=require("gulp-concat");gulp.task("a",function(){gulp.src(["./abc.js","./gulpfile.js"]).pipe(concat("m.js")).pipe(uglify()).pipe(gulp.dest("./build"))});
